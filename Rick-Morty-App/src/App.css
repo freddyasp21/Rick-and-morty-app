@@ -1,0 +1,46 @@
+
+
+.cardHover{
+    transition: all .3s ease;
+}
+
+.cardHover:hover{
+    background-color: #FBFCFC ;
+}
+
+.card-title{
+    color: #7DDFEE !important;
+}
+
+.card{
+    border-radius: 3px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* background-color: #292929;
+    color: white; */
+}
+
+.btn-info{
+    min-width: 100px;
+    align-self: end;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: #00C8E0;
+}
+
+.BiHeartCircle{
+   color: red;
+}
+
+.GiAlienStare{
+    color: green;
+}
